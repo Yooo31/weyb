@@ -1,0 +1,34 @@
+source: ./src/
+destination: ./web/
+production_url: "https://www.weyb.fr"
+baseurl: ""
+url: "https://www.weyb.fr"
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+
+pagination:
+  enabled: true
+  per_page: 9
+  offset: 0
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+name: weyb
+title: ""
+description: ""
+logo: "https://www.weyb.fr/assets/images/weyb.svg"
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+collections:
+  author:
+    output: true
+    permalink: /:collection/:name
