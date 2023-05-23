@@ -1,0 +1,61 @@
+#page .button {
+  display: inline-block;
+  border-radius: 100px;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  line-height: $btn-line-height;
+
+  white-space: nowrap;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  // overflow: hidden;
+
+  max-width: 100%;
+  overflow: hidden;
+
+  &.button-big {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 40px;
+  }
+
+  &.button-medium {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+  }
+
+  &.button-small {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+  }
+
+  &:disabled, &.button-orange:disabled {
+    background: #C3C3C3 !important;
+  }
+
+  &.button-primary {
+    background-color: $primary !important;
+    color: $secondary !important;
+
+    &:hover {
+      background: transparent !important;
+      color: $primary !important;
+    }
+  }
+
+  &.button-transparent {
+    background: transparent !important;
+    color: $primary !important;
+    border: solid 1px $primary;
+
+    &:hover {
+      background-color: $primary !important;
+      color: $secondary !important;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+/* Base */
+
+body#page {
+  background: $secondary;
+  color: $white;
+  font-family: 'Source Sans Pro', Arial;
+}
+
+/* Cookie */
+
+#acceptCookies {
+  background: $secondary !important;
+}
+
+.bg-facturation {
+  background-color: $color-facturation;
+}
+
+.bg-produit {
+  background-color: $color-produit;
+}
+
+.bg-ged {
+  background-color: $color-ged;
+}
+
+.bg-prod {
+  background-color: $color-prod;
+}
+
+.bg-pilotage {
+  background-color: $color-pilotage;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.text-normal {
+  font-size: 1.1rem !important;
+}
+
+.text-big {
+  font-size: 1.2rem !important;
+  line-height: 1.5 !important;
+}
+
+.big-text-1-5 {
+  font-size: 1.8rem !important;
+  line-height: 1 !important;
+}
+
+.big-text-2 {
+  font-size: 2.7rem !important;
+  line-height: 1 !important;
+}
+
+.big-text-3 {
+  font-size: 3.2rem !important;
+  line-height: 1.2 !important;
+}
+
+.big-border {
+  border-bottom: 1rem solid $primary;
+}
+
+.functionality-point {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+
+  i {
+    font-size: 0.9rem;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: $color-ged;
+    color: $secondary;
+    border-radius: 5px;
+    float: left;
+    margin-right: 1rem;
+    position: relative;
+    top: 50%;
+  }
+}
