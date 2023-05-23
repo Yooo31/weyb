@@ -8432,6 +8432,9 @@ body#page {
 .big-border {
   border-bottom: 1rem solid #ffca08; }
 
+.full-page {
+  height: 100vh; }
+
 .functionality-point {
   display: flex;
   align-items: center;
@@ -8492,6 +8495,29 @@ h2, .h2 {
   font-size: 4rem !important;
   line-height: 1.2 !important; }
 
+.title-line {
+  display: inline-block;
+  position: relative;
+  padding: 0 100px; }
+  .title-line::before {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 2px;
+    background: #fff;
+    left: 0;
+    top: 50%;
+    position: absolute; }
+  .title-line::after {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 2px;
+    background: #fff;
+    right: 0;
+    top: 50%;
+    position: absolute; }
+
 .font-weight-light {
   font-weight: 300 !important; }
 
@@ -8551,5 +8577,19 @@ h2, .h2 {
     #page .button.button-transparent:hover {
       background-color: #ffca08 !important;
       color: #144655 !important; }
+
+#page header.big-header {
+  align-items: center;
+  background-attachment: scroll;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 80px 0;
+  text-align: center;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

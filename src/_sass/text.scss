@@ -31,6 +31,34 @@ h2 {
   line-height: 1.2 !important;
 }
 
+.title-line {
+  display: inline-block;
+  position: relative;
+  padding: 0 100px;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 2px;
+    background: #fff;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 2px;
+    background: #fff;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+}
+
 // Weight and italics
 
 .font-weight-light   { font-weight: $font-weight-light !important; }
