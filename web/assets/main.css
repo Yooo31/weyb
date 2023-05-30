@@ -8456,10 +8456,26 @@ body#page {
     position: relative;
     top: 50%; }
 
+.box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease; }
+
+.box:hover {
+  transform: scale(1.1); }
+
+.title {
+  font-size: 24px;
+  transition: font-size 0.3s ease; }
+
+.description {
+  display: none; }
+
 @media (min-width: 992px) {
   #topBar {
     background-color: #212529;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.15);
     padding-bottom: 0;
     padding-top: 0; }
 
