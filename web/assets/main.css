@@ -8458,18 +8458,20 @@ body#page {
 
 @media (min-width: 992px) {
   #topBar {
+    background-color: #212529;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.15);
+    padding-bottom: 0;
+    padding-top: 0; }
+
+  html[data-scroll='0'] #topBar {
     background-color: transparent;
     border: none;
     padding-bottom: 25px;
     padding-top: 25px;
     transition: padding-top 0.3s, padding-bottom 0.3s; }
-    #topBar.nav-scroll {
-      background-color: #212529;
-      box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.15);
-      padding-bottom: 0;
-      padding-top: 0; }
-    #topBar .navbar-nav .nav-item .nav-link {
-      padding: 1.1em 1em !important; } }
+
+  #topBar .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important; } }
 h1, .h1 {
   font-weight: bold; }
 
