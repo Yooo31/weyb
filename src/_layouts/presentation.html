@@ -1,30 +1,40 @@
 ---
 layout: default
 ---
+
 {% include header.html %}
 
-<div class="container">
+<div class="container text-secondary">
   <div class="row">
-    <div class="col">
-      <div class="box">
-        <i class="icon"></i>
-        <h3 class="title">Titre 1</h3>
-        <p class="description">Description 1</p>
+    <div class="col-3">
+      <!-- Carte 1 : titre + icône -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ site.data.presentation.first.title }}</h5>
+          <i class="card-icon {{ site.data.presentation.first.icon }}"></i>
+        </div>
       </div>
     </div>
-    <div class="col">
-      <div class="box">
-        <i class="icon"></i>
-        <h3 class="title">Titre 2</h3>
-        <p class="description">Description 2</p>
+    <div class="col-6">
+      <!-- Carte 2 : titre + icône + description -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ site.data.presentation.second.title }}</h5>
+          <i class="card-icon {{ site.data.presentation.second.icon }}"></i>
+          <p class="card-text card-description">{{ site.data.presentation.second.description }}</p>
+        </div>
       </div>
     </div>
-    <div class="col">
-      <div class="box">
-        <i class="icon"></i>
-        <h3 class="title">Titre 3</h3>
-        <p class="description">Description 3</p>
+    <div class="col-3">
+      <!-- Carte 3 : titre + icône -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ site.data.presentation.third.title }}</h5>
+          <i class="card-icon {{ site.data.presentation.third.icon }}"></i>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
+

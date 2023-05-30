@@ -1,0 +1,12 @@
+first:
+  title: "Mon expertise"
+  description: "Je suis un développeur web polyvalent et passionné, avec une expertise dans plusieurs langages clés. J'ai une expérience solide en Python pour la création de scripts et bots, et utilise Ruby dans mon travail chez KIPSOFT pour le logiciel SaaS KPulse. J'ai également une grande expérience de Jekyll et HTML pour la création de sites Web rapides et esthétiques, et j'étudie actuellement PHP pour un projet en cours. Mes compétences avancées me permettent de fournir des solutions sur mesure."
+  icon: "fa fa-book"
+second:
+  title: "Qui suis-je ?"
+  description: "Je m'appelle Yoan Martins, j'ai 19 ans et je suis étudiant en ingénierie du web à l'ESGI de Toulouse. Depuis la première année de lycée, je me passionne pour le développement informatique et j'aime coder car cela me permet de créer des solutions utiles et concrètes. Actuellement en alternance chez KIPSOFT depuis 2 ans, j'ai pu travailler sur de nombreux projets allant de la création de sites internet à la réalisation de logiciels. En dehors de mon travail en alternance, j'aime également réaliser des projets personnels pour continuer à apprendre et à me perfectionner dans mon domaine."
+  icon: "fa fa-user"
+third:
+  title: "Mon approche"
+  description: "Selon moi, la création d'un site web ne se résume pas simplement à la réalisation d'un projet technique. Il est primordial que vous soyez impliqué dans chaque étape de la création de votre site web. Je m'engage à travailler avec vous de manière étroite pour comprendre vos besoins et vos attentes, et je m'assure d’avoir une communication claire et ouverte tout au long du processus. Mon but est de créer un site qui reflète parfaitement votre image de marque et vos valeurs, tout en veillant à ce qu'il soit facilement accessible et visible pour votre audience cible. Je suis convaincu que la combinaison d'un design soigné et d'une stratégie efficace de référencement naturel peut donner des résultats remarquables pour votre entreprise."
+  icon: "fa fas-building"
